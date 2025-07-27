@@ -1,12 +1,9 @@
 & "$PSScriptRoot\..\gitmodules\mod-installer\build_all.ps1" `
-  -Version "<version>" `
-  -PreReleaseVersion "beta.1" `
-  -OutputFilePrefix "<output file prefix>" `
-  -ModName "<mod name>" `
-  -ModFolder "<mod folder>" `
-  -AdditionalModFolders @() `
+  -Version "1.0.0" `
+  -OutputFilePrefix "Mesa_Fallback" `
+  -ModName "Mesa: Fallback" `
+  -ModFolder "blackmesafallback" `
   -ModFilesPath "$PSScriptRoot\..\game" `
-  -ModBaseFilesUrl "<url to mod base files zip>" `
-  -ModBaseFilesUrlHash "<mod base files zip sha256>" `
-  -ModReadmePath "<mod readme path>" `
+  -ModBaseFilesUrl "https://github.com/HL2-Mods-Legacy-Project/hl2-legacy-registry/releases/download/mesa-fallback/Mesa-Fallback-Original.zip" `
+  -ModBaseFilesUrlHash "653c48ae8d2f9b5fdab0e6fc73c802d2d6da994e6d053184dbd7767f838febac" `
   -PublishPath "$PSScriptRoot\..\artifacts\publish"
