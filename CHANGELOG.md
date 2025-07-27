@@ -7,4 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-<changes>
+## [1.0.0] - 2025-07-27
+
+### Added
+
+- Initial release
+
+### Fixed
+
+- Chapter title in New game menu
